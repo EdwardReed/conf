@@ -15,6 +15,8 @@ let g:snipMate = {}
 let g:snipMate.scope_aliases = {}
 let g:snipMate.scope_aliases['ruby'] = 'ruby,rails'
 
+let g:javascript_plugin_jsdoc = 1
+
 colorscheme ir_black
 
 set backspace=2   " Backspace deletes like most programs in insert mode
@@ -165,3 +167,5 @@ set diffopt+=vertical
 call pathogen#infect()
 syntax enable
 filetype plugin indent on
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
